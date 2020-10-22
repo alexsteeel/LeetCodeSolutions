@@ -5,5 +5,9 @@
     /// </summary>
     public class Problem1624
     {
+        public int MaxLengthBetweenEqualCharacters(string s)
+        {
+            return 0;
+        }
     }
 }
