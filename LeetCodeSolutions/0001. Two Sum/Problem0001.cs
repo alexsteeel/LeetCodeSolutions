@@ -3,7 +3,7 @@
     /// <summary>
     /// https://leetcode.com/problems/two-sum/
     /// </summary>
-    public class Problem1
+    public class Problem0001
     {
         public int[] TwoSum(int[] nums, int target)
         {

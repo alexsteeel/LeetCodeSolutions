@@ -3,12 +3,12 @@ using NUnit.Framework;
 
 namespace LeetCodeSolutionsUnitTests
 {
-    public class Problem1Tests
+    public class Problem0001Tests
     {
         [Test]
         public void TwoSum_FourInputElements_CorrectResult()
         {
-            var problem1 = new Problem1();
+            var problem1 = new Problem0001();
             var input = new int[] { 2, 7, 11, 15 };
             var expected = new int[] { 0, 1 };
 
@@ -20,7 +20,7 @@ namespace LeetCodeSolutionsUnitTests
         [Test]
         public void TwoSum_ThreeInputElements_CorrectResult()
         {
-            var problem1 = new Problem1();
+            var problem1 = new Problem0001();
             var input = new int[] { 3, 2, 4 };
             var expected = new int[] { 1, 2 };
 
@@ -32,7 +32,7 @@ namespace LeetCodeSolutionsUnitTests
         [Test]
         public void TwoSum_TwoInputElements_CorrectResult()
         {
-            var problem1 = new Problem1();
+            var problem1 = new Problem0001();
             var input = new int[] { 3, 3 };
             var expected = new int[] { 0, 1 };
 
@@ -44,7 +44,7 @@ namespace LeetCodeSolutionsUnitTests
         [Test]
         public void TwoSum_TwoIdenticalConsecutiveElements_CorrectResult()
         {
-            var problem1 = new Problem1();
+            var problem1 = new Problem0001();
             var input = new int[] { 2, 5, 5, 11 };
             var expected = new int[] { 1, 2 };
 
